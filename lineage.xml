@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="github"
+        <remote name="hub"
                 fetch="https://github.com" />
 
         <!-- Sync trees -->
-        <project path="device/hmd/WSP_sprout" name="SmallPP420/final_device_hmd_WSP_sprout" remote="github" revision="lineage-18" />
-        <project path="vendor/hmd/WSP_sprout" name="SmallPP420/vendor_nokia_WSP_sprout" remote="github" revision="lineage-18" />
+        <project path="device/hmd/WSP_sprout" name="SmallPP420/final_device_WSP_sprout" remote="hub" revision="lineage-18" />
+        <project path="vendor/hmd/WSP_sprout" name="SmallPP420/vendor_nokia_WSP_sprout" remote="hub" revision="lineage-18" />
 </manifest>
